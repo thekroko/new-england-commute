@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <PreferenceCategory
+        android:title="Preference category"
+        tools:title="@string/pref_category_morning">
+
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="South Norwalk"
+        android:entries="@array/pref_stationList"
+        android:entryValues="@array/pref_stationList"
+        android:key="from_station"
+        android:summary="@string/pref_desc_commuteStartLoc"
+        android:title="@string/pref_title_commuteStartLoc"
+        tools:title="@string/pref_title_commuteStartLoc" />
+    <ListPreference
+        android:defaultValue="8"
+        android:entries="@array/pref_commuteStartTime_titles"
+        android:entryValues="@array/pref_commuteStartTime_values"
+        android:key="from_time"
+        android:summary="@string/pref_desc_commuteStartTime"
+        android:title="@string/pref_title_commuteStartTime" />
+    <PreferenceCategory
+        android:title="Preference category"
+        tools:title="@string/pref_category_evening">
+
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="Grand Central"
+        android:entries="@array/pref_stationList"
+        android:entryValues="@array/pref_stationList"
+        android:key="to_station"
+        android:summary="@string/pref_desc_commuteEndLoc"
+        android:title="@string/pref_title_commuteEndLoc" />
+    <ListPreference
+        android:defaultValue="18"
+        android:entries="@array/pref_commuteEndTime_titles"
+        android:entryValues="@array/pref_commuteEndTime_values"
+        android:key="to_time"
+        android:summary="@string/pref_desc_commuteEndTime"
+        android:title="@string/pref_title_commuteEndTime" />
+</PreferenceScreen>

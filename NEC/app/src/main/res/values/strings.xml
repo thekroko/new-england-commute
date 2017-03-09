@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">New England Commuting Widget</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Commute Settings-->
+    <string name="pref_header_commute">Commute</string>
+    <string name="pref_header_sync">Schedule Sync</string>
+
+    <string name="pref_category_morning">Morning Commute</string>
+    <string name="pref_category_evening">Evening Commute</string>
+
+    <string name="pref_title_commuteStartLoc">From Station</string>
+    <string name="pref_desc_commuteStartLoc">The train station at which you start your commute in the morning</string>
+    <string name="pref_title_commuteStartTime">At Time</string>
+    <string name="pref_desc_commuteStartTime">The time at which you usually start your morning commute (used for fetching live train info)</string>
+    <string-array name="pref_commuteStartTime_titles">
+        <item>4 AM</item>
+        <item>5 AM</item>
+        <item>6 AM</item>
+        <item>7 AM</item>
+        <item>8 AM</item>
+        <item>9 AM</item>
+        <item>10 AM</item>
+        <item>11 AM</item>
+    </string-array>
+    <string-array name="pref_commuteStartTime_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="pref_stationList">
+        <item>Grand Central</item>
+        <item>South Norwalk</item>
+    </string-array>
+
+    <string name="pref_title_commuteEndLoc">To Station</string>
+    <string name="pref_desc_commuteEndLoc">The train station at which you start your commute in the evening</string>
+    <string name="pref_title_commuteEndTime">At Time</string>
+    <string name="pref_desc_commuteEndTime">The time at which you usually start your evening commute (used for fetching live train info)</string>
+    <string-array name="pref_commuteEndTime_titles">
+        <item>4 PM</item>
+        <item>5 PM</item>
+        <item>6 PM</item>
+        <item>7 PM</item>
+        <item>8 PM</item>
+        <item>9 PM</item>
+        <item>10 PM</item>
+        <item>11 PM</item>
+    </string-array>
+    <string-array name="pref_commuteEndTime_values">
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+
+    <!-- Sync settings -->
+    <string name="pref_title_liveEnabled">Fetch Live Info</string>
+    <string name="pref_desc_liveEnabled">Shows train track and delays on current trains</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

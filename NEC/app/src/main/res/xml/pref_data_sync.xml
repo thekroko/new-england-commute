@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <!-- This preference simply launches an intent when selected. Use this UI sparingly, per
+         design guidelines. -->
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="fetch_live_info"
+        android:summary="@string/pref_desc_liveEnabled"
+        android:title="@string/pref_title_liveEnabled" />
+</PreferenceScreen>
